@@ -1,4 +1,3 @@
-
 # Interpreting Significance and P-values 
 
 ## Introduction
@@ -159,7 +158,7 @@ We encourage you to visit the following links to see more examples and explanati
 
 [Hypothesis Test for Regression Slope](https://stattrek.com/regression/slope-test.aspx)
 
-[Regression Continued](http://www.stat.ucla.edu/~cochran/stat10/winter/lectures/lect18.html)
+[Regression Continued](https://web.archive.org/web/20191221171509/http://www.stat.ucla.edu:80/~cochran/stat10/winter/lectures/lect18.html)
 
 ## Summary 
 
