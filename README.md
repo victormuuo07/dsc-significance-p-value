@@ -18,7 +18,7 @@ In regression, you will generally try to reject the null hypothesis, because tha
 
 ## Hypothesis Testing in Regression 
 
-During regression, you try to measure the model parameters (coefficients). The null and alternative hypotheses are also set up in those terms. Think about the simple regression model you created using the Advertising.csv dataset. For a simple dataset like this, you can set up the hypotheses as follows:
+During regression, you try to measure the model parameters (coefficients). The null and alternative hypotheses are also set up in those terms. Think about the simple regression model you created using the advertising.csv dataset. For a simple dataset like this, you can set up the hypotheses as follows:
 
 > **Null Hypothesis ($H_0$)**: There is no relationship between the amount spent on TV advertisement and sales figures
 
@@ -54,7 +54,7 @@ import statsmodels.formula.api as smf
 import scipy.stats as stats
 plt.style.use('fivethirtyeight')
 
-data = pd.read_csv('Advertising.csv', index_col=0)
+data = pd.read_csv('advertising.csv', index_col=0)
 f = 'sales~TV'
 f2 = 'sales~radio'
 model = smf.ols(formula=f, data=data).fit()
